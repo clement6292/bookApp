@@ -1,0 +1,19 @@
+<header>
+    <nav>
+        <ul>
+            <a href=""><img [src]="logo" alt=""></a>
+            <a href="">
+                <li>Home</li>
+            </a>
+            <a href="">
+                <li>About</li>
+            </a>
+            <a href="">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </nav>
+    <button (click)="afficheForm()" class="Affichage"> {{affiche ?"Afficher le formulaire d'enregistrement": "Cacher le
+        formulaire d'enregistrement"}}</button>
+
+</header>

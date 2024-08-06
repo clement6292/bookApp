@@ -1,0 +1,13 @@
+table, th , td {
+    border: 1px solid black;
+    border-collapse:collapse ;
+    background-color: beige;
+    padding: 1rem;
+    /* margin-top: 12%;*/
+     margin-inline: auto; 
+    font-size: 2rem;
+    width:50rem;
+    height:5rem ;
+  
+      
+}

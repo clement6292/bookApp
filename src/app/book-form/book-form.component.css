@@ -1,0 +1,43 @@
+.container{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    padding-left: 200px;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin-left: 40%;
+    margin-inline: auto;
+    
+  
+}
+input{
+    width: 500px; ;
+    height: 50px;
+    border-radius: 10px;
+    margin-block: 1rem;
+ }
+textarea{
+    width: 500px; ;
+    height:50px ;
+    border-radius: 10px;
+}
+  button{
+    width: 500px; 
+    height:50px ;
+    border-radius: 10px;
+    margin-block: 1rem;
+    margin-inline: auto;
+    background-color: coral;
+  }
+
+  .Affichage{
+    background-color: chocolate;
+    margin-left: 40%;
+  }
+
+  form{
+    margin-block: 2rem;
+   
+ }

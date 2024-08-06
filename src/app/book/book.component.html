@@ -1,0 +1,15 @@
+<!-- entête de notre site -->
+<app-book-header (passValue)="recupValue($event)"></app-book-header>
+
+
+<!-- corps de notre site -->
+
+<!-- formulaire d'enregistrement -->
+<app-book-form [affiche]="getChildInfo"></app-book-form>
+
+<!-- Tableau d'affichage des livres -->
+<app-book-list></app-book-list>
+
+
+<!-- pied de notre site -->
+<app-book-footer></app-book-footer>
